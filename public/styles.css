@@ -1,0 +1,79 @@
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #FAA613;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}
+
+#logo {
+  background-color: white;
+  position: relative;
+  height: 60px;
+  left: 3%;
+  top: 5%;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  border: 5px;
+  border-radius: 2px;
+  border-color: beige;
+}
+
+
+
+#plus-button:hover {
+  background-color: #095776;
+  transition: 0.2s;
+}
+
+#add-button {
+  display: flex;
+  justify-content: end;
+  align-content: flex-end;
+}
+
+#plus-button {
+  position:relative;
+  border: 1px dotted white;
+  width: 3px;
+  height: 3px;
+  background-color: black;
+  box-sizing: border-box;
+  transform: scale(11);
+  left: 70px;
+  top: 50px;
+}
+
+#add-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  position: relative;
+  top: 5px;
+}
+
+.budgets {
+  display: flex;
+  flex-direction: column;
+}
+
+ #myChart {
+  position: relative;
+  left: 400px;
+  bottom: 450px;
+  width: 400px;
+  height: 400px;
+} 
+
+#int {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top: 10px;
+}
