@@ -1,0 +1,49 @@
+﻿Personal Budget Capstone Project Plan
+By: Tate Frost
+F-14
+
+
+Capstone project idea:
+        I would like to create a web application which allows a user to create a budget for their finances and be able to see different visualizations based on the information that the user enters. The goal is to create a budget application which is very quick and easy to use, which is aesthetic, and is geared toward younger users.
+
+
+MVP list:
+* Displays any saved user budgets
+* User can create a new budget
+* User can edit/ add new categories for budgets
+* User can delete budgets
+
+
+Points:
+
+
+Planning:
+- Project includes a wire frame for each view
+- Project includes a list of MVP features
+- Project includes a data model 
+
+
+MVP:
+- App has at least 3 main features
+- Front end makes a request to the server and handles the response
+- Front end is interactive
+- App has custom styling
+
+
+Front end:
+- App has at least 5 semantic tags
+- App includes 1 view
+- Styling includes flexbox
+- Styling includes animation
+
+
+Server: 
+- App includes a GET endpoint and handler function
+- App includes a POST endpoint and handler function
+- App includes a PUT endpoint and handler function
+- App includes a DELETE endpoint and handler function
+
+
+Database:
+- Project uses a seed file or function
+- App uses 1 table

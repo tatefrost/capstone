@@ -8,11 +8,11 @@ app.use(express.json());
 const ctrl = require('./controller.js')
 
 app.get('/api/budgets', ctrl.budgets)
+app.get('/api/budgets/cats/:id', ctrl.getCategories)
 app.post('/api/budgets', ctrl.createBudget)
-app.post('/api/budgets/:id', ctrl.addCategory)
+app.put('/api/budgets/:id', ctrl.addCategory)
 app.put('/api/budgets/amount/:id', ctrl.editAmount)
 app.put('/api/budgets/category/amount/:id', ctrl.editCatAmount)
-app.put('/api/budgets/increment', ctrl.changeIncrement)
 app.delete('/api/budgets/:id', ctrl.deleteBudget)
 
 

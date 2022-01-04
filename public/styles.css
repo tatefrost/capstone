@@ -63,17 +63,10 @@ h1 {
   flex-direction: column;
 }
 
- #myChart {
+ #can {
   position: relative;
   left: 400px;
   bottom: 450px;
   width: 400px;
   height: 400px;
 } 
-
-#int {
-  display: flex;
-  justify-content: end;
-  position: relative;
-  top: 10px;
-}

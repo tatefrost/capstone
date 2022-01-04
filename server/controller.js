@@ -1,13 +1,12 @@
 let globalId = 2
-let increment = 100
 
 const allBudgets = [
   {
     "id": 1,
     "name": "Budget 1",
-    "amount": 100,
+    "amount": 0,
     "categories": {
-      "Category 1": 100
+      "Category 1": 0
     },
     "cats": 2,
   }
@@ -48,7 +47,7 @@ module.exports = {
 
       res.status(200).send(allBudgets)
     } else if (type === 'minus') {
-      allBudgets[index].amount -= 100
+      allBudgets[index].amount -= amount
       res.status(200).send(allBudgets)
     }
   },
@@ -64,7 +63,7 @@ module.exports = {
     let {id} = req.params
     
     let index = allBudgets.findIndex(elem => +elem.id === +id);
-    allBudgets[index].categories[`Category ${allBudgets[index].cats}`] = 100
+    allBudgets[index].categories[`Category ${allBudgets[index].cats}`] = 0
     allBudgets[index].cats++
     
     console.log(allBudgets[index])
@@ -73,24 +72,27 @@ module.exports = {
   },
   editCatAmount: (req, res) => {
     let {id} = req.params
-    let {type} = req.body
+    let {type, amount, name} = req.body
 
     let index = allBudgets.findIndex(elem => +elem.id === +id)
-
-    if (allBudgets[index].categories['Category 1'] <= 0 && type === 'minus') {
+    if (allBudgets[index].categories[name] <= 0 && type === 'minus') {
       res.status(400).send('cannot be below 0')
     } else if (type === 'plus') {
-      allBudgets[index].categories['Category 1'] += 100
+      allBudgets[index].categories[name] += amount
       res.status(200).send(allBudgets)
     } else if (type === 'minus') {
-      allBudgets[index].categories['Category 1'] -= 100
+      allBudgets[index].categories[name] -= amount
       res.status(200).send(allBudgets)
     }
   },
-  changeIncrement: (req, res) => {
-    let {amount} = req.body
-    increment = amount
-    console.log(amount)
-    res.status(200)
+  getCategories: (req, res) => {
+    let {id} = req.params
+    
+    
+    let index = allBudgets.findIndex(elem => +elem.id === +id)
+    
+    console.log(allBudgets[index].categories)
+
+    res.status(200).send(allBudgets)
   }
 }
