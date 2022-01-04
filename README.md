@@ -7,7 +7,7 @@ Provided are the abilities to display all saved budgets within the server, to ad
 
 ![My-change-image] [logo]
 
-[logo]: https://github.com/tatefrost/my-change-image/my-change-photo.png
+[logo]: https://github.com/tatefrost/my-change-image/my-change-photo.png "Logo Title Text"
 
 ## Technologies used
 * JavaScript
