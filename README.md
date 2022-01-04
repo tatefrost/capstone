@@ -5,7 +5,7 @@ It was designed with the goal in mind being an application that a user could int
 
 Provided are the abilities to display all saved budgets within the server, to add new budgets, to edit dollar amounts of budget totals and category totals, and to delete budgets.
 
-![My-change-image](https://github.com/tatefrost/my-change-image/my-change-photo.png "Logo Title Text")
+![My-change-image](https://github.com/tatefrost/my-change-image/blob/main/my-change-photo.png "My change")
 
 ## Technologies used
 * JavaScript
