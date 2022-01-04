@@ -1,5 +1,5 @@
 # My ₵hange
-My ₵hange is a web application created to allow users to track and alter financial gains and loses across an unlimited amount of budgets and categories. 
+My ₵hange is a web application created with vanilla JavaScript to allow users to track and alter financial gains and loses across an unlimited amount of budgets and categories. 
 
 It was designed with the goal in mind being an application that a user could interact with effortlessly and effectively while also providing the ability to create and track multiple budgets at one time unlike many popular budgeting services.
 
