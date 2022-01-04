@@ -20,7 +20,6 @@ Points:
 Planning:
 - Project includes a wire frame for each view
 - Project includes a list of MVP features
-- Project includes a data model 
 
 
 MVP:
@@ -34,16 +33,16 @@ Front end:
 - App has at least 5 semantic tags
 - App includes 1 view
 - Styling includes flexbox
-- Styling includes animation
-
+- At least one view is responsive
 
 Server: 
 - App includes a GET endpoint and handler function
 - App includes a POST endpoint and handler function
 - App includes a PUT endpoint and handler function
 - App includes a DELETE endpoint and handler function
+- Project includes at least 1 controller file
 
+Presentation:
+- Discusses project purpose and demonstrates MVP *
+- Recording is between 2-3 minutes
 
-Database:
-- Project uses a seed file or function
-- App uses 1 table
