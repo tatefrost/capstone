@@ -32,7 +32,7 @@ MVP:
 Front end:
 - App has at least 5 semantic tags
 - App includes 1 view
-- Styling includes flexbox
+- Styling includes flex box
 - At least one view is responsive
 
 Server: 
@@ -44,5 +44,6 @@ Server:
 
 Presentation:
 - Discusses project purpose and demonstrates MVP *
+- Does not discuss broken/unimplemented features 
 - Recording is between 2-3 minutes
 
